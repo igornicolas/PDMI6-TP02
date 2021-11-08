@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP02.ParamsHomePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label FontSize="Medium" Grid.Row="2" TextColor="Black" Text="Nome"/>
+            <Entry Grid.Row="2" Grid.Column="1" x:Name="Nome"/>
+            <Label FontSize="Medium" Grid.Row="3" TextColor="Black" Text="Idade"/>
+            <Entry  Grid.Column="1" Grid.Row="3" x:Name="Idade"/>
+            <Label FontSize="Medium" Grid.Row="3" TextColor="Black" Text="Profissao"/>
+            <Entry  Grid.Column="1" Grid.Row="3" x:Name="Profissao"/>
+            <Label FontSize="Medium" Grid.Row="3" TextColor="Black" Text="Pais"/>
+            <Entry  Grid.Column="1" Grid.Row="3" x:Name="Pais"/>
+            <Button TextColor="Black" Text="Detalhe" Clicked="bntDetalhe_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

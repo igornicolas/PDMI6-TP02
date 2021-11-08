@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP02.OutroProdutoFormPage" Title="Outro formulario">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label FontSize="Medium" Grid.Row="2" TextColor="Black" Text="Id"/>
+            <Entry Grid.Row="2" Grid.Column="1" x:Name="Id" Text="{Binding Id}"/>
+            <Label FontSize="Medium" Grid.Row="3" TextColor="Black" Text="Descricao"/>
+            <Entry  Grid.Column="1" Grid.Row="3" x:Name="Descricao" Text="{Binding Descricao}"/>
+            <Label FontSize="Medium" Grid.Row="3" TextColor="Black" Text="Categoria" />
+            <Entry  Grid.Column="1" Grid.Row="3" x:Name="Categoria" Text="{Binding Categoria}"/>
+            <Label FontSize="Medium" Grid.Row="3" TextColor="Black" Text="Quantidade"/>
+            <Entry  Grid.Column="1" Grid.Row="3" x:Name="Quantidade" Text="{Binding Quantidade}"/>
+            <Label FontSize="Medium" Grid.Row="3" TextColor="Black" Text="Preco" />
+            <Entry  Grid.Column="1" Grid.Row="3" x:Name="Preco" Text="{Binding Preco}"/>
+            <Button TextColor="Black" Text="Voltar" Clicked="btnVoltar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

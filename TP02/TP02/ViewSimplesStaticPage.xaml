@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP02.ViewSimplesStaticPage" Title = "Fonte Simples">
+    <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="20">
+            <Label Text="Desenvolvimento de aplicativos com Xamarin" TextColor="Red"/>
+            <Label Text="Introdução a Big Data &amp; Analytics" TextColor="Red"/>
+            <Label Text="Certificação TOGAF Nivel 1" TextColor="Red"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
